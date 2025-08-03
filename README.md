@@ -1,5 +1,5 @@
 # react-github-badge
-A React badge displaying GitHub repo and test counts
+A React badge displaying GitHub repo and test counts.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -41,4 +41,4 @@ import { TestCounterBadge } from '@neurodevs/react-github-badge'
 
 This will render a clickable badge that looks like this:
 
-<img src="./assets/badge-screenshot.png" alt="Badge screenshot showing 22 repos and 540 tests for Neurodevs" width="200" />
+<img src="./assets/badge-screenshot.png" alt="Badge screenshot showing 22 repos and 540 tests for Neurodevs." width="300" />
