@@ -23,7 +23,7 @@ export default class TestCounterBadgeTest extends AbstractSpruceTest {
 
     @test()
     protected static async rendersBadgeWithId() {
-        expect(this.badge).toHaveAttribute('id', 'test-counter-badge')
+        expect(this.badge).toHaveAttribute('class', 'test-counter-badge')
     }
 
     @test()

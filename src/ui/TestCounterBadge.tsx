@@ -15,7 +15,7 @@ const TestCounterBadge: React.FC<TestCounterBadgeProps> = (
 
     return (
         <div
-            id="test-counter-badge"
+            className="test-counter-badge"
             data-testid="test-counter-badge"
             style={style}
         >
