@@ -2,7 +2,7 @@ import AbstractSpruceTest, { generateId, test } from '@sprucelabs/test-utils'
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import React from 'react'
-import TestCounterBadge from '../../ui/TestCounterBadge'
+import { TestCounterBadge } from '../../ui/TestCounterBadge'
 
 export default class TestCounterBadgeTest extends AbstractSpruceTest {
     private static badge: HTMLElement
