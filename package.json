@@ -1,7 +1,6 @@
 {
   "name": "@neurodevs/react-github-badge",
-  "version": "1.0.5",
-  "type": "module",
+  "version": "1.0.6",
   "main": "build/index.js",
   "repository": "https://github.com/neurodevs/react-github-badge",
   "scripts": {
