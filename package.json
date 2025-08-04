@@ -1,6 +1,7 @@
 {
   "name": "@neurodevs/react-github-badge",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "main": "build/index.js",
   "repository": "https://github.com/neurodevs/react-github-badge",
   "scripts": {
     "build.ci": "yarn run build.tsc && yarn run build.resolve-paths && yarn run lint",
