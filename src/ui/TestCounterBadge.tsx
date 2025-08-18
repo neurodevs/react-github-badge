@@ -8,7 +8,7 @@ export interface TestCounterBadgeProps {
     style?: React.CSSProperties
 }
 
-export const TestCounterBadge: React.FC<TestCounterBadgeProps> = (
+const TestCounterBadge: React.FC<TestCounterBadgeProps> = (
     props: TestCounterBadgeProps
 ) => {
     const { title, githubUrl, numRepos, numTests, style } = props
@@ -37,3 +37,5 @@ export const TestCounterBadge: React.FC<TestCounterBadgeProps> = (
         </div>
     )
 }
+
+export default TestCounterBadge
