@@ -1,6 +1,6 @@
 {
   "name": "@neurodevs/react-github-badge",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "build/index.js",
   "repository": "https://github.com/neurodevs/react-github-badge",
   "scripts": {
@@ -74,8 +74,8 @@
       "<rootDir>/src/__tests__/setup.js"
     ]
   },
-  "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }
