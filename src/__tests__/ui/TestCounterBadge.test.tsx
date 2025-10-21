@@ -1,4 +1,5 @@
-import AbstractSpruceTest, { generateId, test } from '@sprucelabs/test-utils'
+import AbstractSpruceTest, { test } from '@sprucelabs/test-utils'
+import generateId from '@neurodevs/generate-id'
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import React from 'react'
