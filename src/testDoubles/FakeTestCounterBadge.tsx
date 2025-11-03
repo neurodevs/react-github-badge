@@ -1,5 +1,6 @@
 import React from 'react'
-import { TestCounterBadgeProps } from '../ui/TestCounterBadge'
+
+import { TestCounterBadgeProps } from '../ui/TestCounterBadge.js'
 
 export let lastFakeTestCounterBadgeProps: TestCounterBadgeProps | undefined
 

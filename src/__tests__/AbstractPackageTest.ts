@@ -1,4 +1,4 @@
-import AbstractSpruceTest from '@sprucelabs/test-utils'
+import AbstractModuleTest from '@neurodevs/node-tdd'
 import '@testing-library/jest-dom'
 
-export default class AbstractPackageTest extends AbstractSpruceTest {}
+export default class AbstractPackageTest extends AbstractModuleTest {}

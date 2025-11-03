@@ -1,7 +1,8 @@
 {
   "name": "@neurodevs/react-github-badge",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A React badge displaying GitHub repo and test counts",
+  "type": "module",
   "keywords": [
     "nodejs",
     "typescript",

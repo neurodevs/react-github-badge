@@ -1,9 +1,10 @@
-import AbstractSpruceTest, { test } from '@sprucelabs/test-utils'
 import generateId from '@neurodevs/generate-id'
+import AbstractSpruceTest, { test } from '@neurodevs/node-tdd'
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import React from 'react'
-import TestCounterBadge from '../../ui/TestCounterBadge'
+
+import TestCounterBadge from '../../ui/TestCounterBadge.js'
 
 export default class TestCounterBadgeTest extends AbstractSpruceTest {
     private static badge: HTMLElement
